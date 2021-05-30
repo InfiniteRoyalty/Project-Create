@@ -31,6 +31,10 @@ h1, h2, h3, h4 {
     margin: 40px;
 }
 
+h4 {
+    font-size: 40px;
+}
+
 h1.title {
     object-fit: scale-down;
     margin: 30px 0 50px;
