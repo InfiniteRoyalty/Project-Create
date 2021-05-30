@@ -1,0 +1,234 @@
+header {
+    background-image: url(../images/social.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: scale-down;
+    min-width: fit-content;
+    text-align: center;
+    font-size: 50px;
+    padding: 0px;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    background: #f5f5f5;
+    line-height: 1.3;
+}
+
+h1, h2, h3, h4 {
+    display: inline-block;
+    background: white;
+    color: black;
+    box-shadow: 3px 2px 12px black;
+    padding: 15px;
+    border-radius:50px;
+    margin: 40px;
+}
+
+h1.title {
+    object-fit: scale-down;
+    margin: 30px 0 50px;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 70px;
+}
+
+p {
+    font-size: 30px;
+    margin: 10px 100px;
+    padding: 0 30px 0 30px;
+    color: black;
+    text-align: center;
+}
+
+p.caption {
+    font-style: italic;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+li.link {
+    font-size: 17px;
+    background: white;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+li {
+    display: inline-block;
+    overflow-wrap: break-word;
+    margin: 10px 70px 0;
+    padding: 30px;
+}
+
+a{
+    color: black;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+section {
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+img {
+    object-fit: scale-down;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5px;
+    border-radius: 30px;
+    min-width: 500px;
+    min-height: 500px;
+    max-width: 1000px;
+    max-height: 1000px;
+    background: transparent;
+    box-shadow: 3px 2px 12px black;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 300px;
+    max-width: 450px;
+    overflow: hidden;
+    background: white;
+    color: black;
+    border-radius: 25px;
+    box-shadow: 3px 2px 12px black;
+    font-size: 12px;
+    transition: transform 200ms ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-1rem);
+}
+
+.card__title {
+    padding: 10px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.card__snippet {
+    padding: 0 20px 10px 20px;
+    font-size: 25px;
+}
+
+.card__readmore {
+    margin-top: auto;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card__image {
+    min-width: 450px;
+    min-height: 450px;
+    flex: 0 0 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+
+button {
+    margin: 30px;
+    padding: 10px;
+    background: white;
+    border: black;
+    border-radius: 30px;
+    color: black;
+    box-shadow: 3px 2px 12px black;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+}
+
+button:hover {
+    background: green;
+    color: white;
+    font-weight: 700;
+}
+
+footer {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+center p{
+    margin: 0 100px;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+    h1 {
+        object-fit: scale-down;
+        padding: 30px;
+        border-radius: 100px;
+    }
+    li {
+        margin: 20px;
+    }
+    body {
+        object-fit: scale-down;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    h1 {
+        object-fit: scale-down;
+        padding: 30px;
+        border-radius: 70px;
+    }
+    li {
+        margin: 20px;
+    }
+    body {
+        object-fit: scale-down;
+    }
+    p {
+        margin: 0;
+    }
+}
