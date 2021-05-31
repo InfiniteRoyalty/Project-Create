@@ -104,8 +104,8 @@ img {
     margin-right: auto;
     padding: 0.5px;
     border-radius: 30px;
-    min-width: 500px;
-    min-height: 500px;
+    min-width: 300px;
+    min-height: 300px;
     max-width: 1000px;
     max-height: 1000px;
     background: transparent;
@@ -218,6 +218,9 @@ center p{
     body {
         object-fit: scale-down;
     }
+    img {
+        max-width: 700px;
+    }
 }
 
 @media screen and (max-width: 554px) {
@@ -227,9 +230,11 @@ center p{
         margin: 20px;
         border-radius: 70px;
     }
-
     .link {
         margin: 0px;
+    }
+    img {
+        max-width: 500px;
     }
 }
 
@@ -237,18 +242,21 @@ center p{
     .link {
         border: 10px;
     }
-
     nav {
         border: 10px;
     }
-
     .cards {
         gap: 30px;
     }
-
     p {
         margin-left: auto;
         margin-right: auto;
+    }
+    img {
+        object-fit: cover;
+        max-width: 400px;
+        max-height: 250px;
+        padding: 0px;
     }
 
 @media screen and (max-width: 380px) {
