@@ -241,4 +241,13 @@ center p{
     nav {
         border: 10px;
     }
+
+    .cards {
+        gap: 30px;
+    }
+
+    p {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
