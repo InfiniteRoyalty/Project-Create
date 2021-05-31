@@ -246,7 +246,7 @@ center p{
         border: 10px;
     }
     .cards {
-        gap: 30px;
+        column-gap: 30px;
     }
     p {
         margin-left: auto;
